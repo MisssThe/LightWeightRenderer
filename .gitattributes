@@ -1,2 +1,4 @@
 GameEngine/** filter=lfs diff=lfs merge=lfs -text
 GameEngine filter=lfs diff=lfs merge=lfs -text
+*.a filter=lfs diff=lfs merge=lfs -text
+GameEngine/IncludeFile/FBX/lib/legacy_clang/debug/libfbxsdk.dylib filter=lfs diff=lfs merge=lfs -text
