@@ -1,0 +1,34 @@
+{
+  "input_set" : [65,66,67,68,69,70,71,72,256],
+  "window_set" : {
+    "set_0": {
+      "engine_model": "Editor",
+      "screen_width": 0.9,
+      "screen_height": 0.9,
+      "back_color": "0,0,0,1"
+    },
+    "set_1": {
+      "engine_model": "Editor",
+      "screen_width": 0.2,
+      "screen_height": 0.4,
+      "back_color": "0,0,0,1"
+    }
+  },
+  "shader_path" : {
+    "path_0" : {
+      "UI" : ["SourceCode/SystemDocuments/ShaderDocuments/UIShader/UI.vertex","SourceCode/SystemDocuments/ShaderDocuments/UIShader/UI.fragment"],
+      "Lit": ["SourceCode/SystemDocuments/ShaderDocuments/LitShader/Lit.vertex","SourceCode/SystemDocuments/ShaderDocuments/LitShader/Lit.fragment"]
+    },
+    "path_1" : {
+      "UI" : ["SourceCode/SystemDocuments/ShaderDocuments/UIShader/UI.vertex","SourceCode/SystemDocuments/ShaderDocuments/UIShader/UI1.fragment"]
+    }
+  },
+  "mesh_path" : {
+    "path_0" : {
+      "CoffeeCup":"ExtendCode/Resource/Mesh/coffee_cup_obj.obj"
+    },
+    "path_1" : {
+      "CoffeeCup":"ExtendCode/Resource/Mesh/coffee_cup_obj.obj"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+#version 330 core
+
+//------------ LAYOUT  START ------------
+//------------ LAYOUT    END ------------
+
+
+//------------ UNIFORM START ------------
+//------------ UNIFORM   END ------------
+
+
+//------------ INOUT   START ------------
+out vec4 FragColor;
+//------------ INOUT     END ------------
+
+
+//------------ MAIN    START ------------
+void main()
+{
+    FragColor = vec4(1,1,1,1);
+}
+//------------ MAIN      END ------------

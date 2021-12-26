@@ -1,0 +1,30 @@
+cmake_minimum_required(VERSION 3.20)
+project (GameEngine)
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(GLEW_H ${PROJECT_SOURCE_DIR}/IncludeFile/glew/2.2.0_1/include/GL)
+set(GLFW_H ${PROJECT_SOURCE_DIR}/IncludeFile/glfw/3.3.4/include/GLFW)
+set(GLAD_H ${PROJECT_SOURCE_DIR}/IncludeFile/glad/include/glad)
+set(KH_H ${PROJECT_SOURCE_DIR}/IncludeFile/glad/include/KHR)
+set(JSON_H ${PROJECT_SOURCE_DIR}/IncludeFile/jsoncpp/1.9.4_1/include/json)
+set(ASSIMP_H ${PROJECT_SOURCE_DIR}/IncludeFile/assimp/5.0.1/include)
+set(GLM_H ${PROJECT_SOURCE_DIR}/IncludeFile/glm/0.9.9.8/include)
+set(IMAGE_H ${PROJECT_SOURCE_DIR}/IncludeFile/stb_image/include)
+set(FREETYPE_H ${PROJECT_SOURCE_DIR}/IncludeFile/freetype/2.11.0/include/freetype2)
+#set(FBX_H ${PROJECT_SOURCE_DIR}/IncludeFile/FBX/include)
+include_directories(${GLEW_H} ${GLFW_H} ${GLAD_H} ${KH_H} ${JSON_H} ${ASSIMP_H} ${GLM_H} ${IMAGE_H} ${FREETYPE_H})
+
+set(GLEW_LINK ${PROJECT_SOURCE_DIR}/IncludeFile/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib)
+set(GLFW_LINK ${PROJECT_SOURCE_DIR}/IncludeFile/glfw/3.3.4/lib/libglfw.3.3.dylib)
+set(JSON_LINK ${PROJECT_SOURCE_DIR}/IncludeFile/jsoncpp/1.9.4_1/lib/libjsoncpp.24.dylib)
+set(ASSIMP_LINK ${PROJECT_SOURCE_DIR}/IncludeFile/assimp/5.0.1/lib/libassimp.dylib)
+#set(FBX_LINK  ${PROJECT_SOURCE_DIR}/IncludeFile/FBX/lib/clang/debug/libfbxsdk.a)
+link_libraries(${OPENGL} ${GLFW_LINK} ${GLEW_LINK} ${JSON_LINK} ${ASSIMP_LINK})
+
+add_executable(GameEngine SourceCode/main.cpp SourceCode/glad.c SourceCode/CommonUtils/GameEngine2D.cpp SourceCode/CommonUtils/GameEngine2D.h SourceCode/EngineFramework/Engine.cpp SourceCode/EngineFramework/Engine.h SourceCode/EngineFramework/EngineSetting.cpp SourceCode/EngineFramework/EngineSetting.h SourceCode/CommonUtils/CommonUtils.cpp SourceCode/CommonUtils/CommonUtils.h SourceCode/Components/Component.h SourceCode/Components/GameObject.h SourceCode/CommonUtils/Time.cpp SourceCode/CommonUtils/Time.h SourceCode/CommonUtils/GameLog.cpp SourceCode/CommonUtils/GameLog.h SourceCode/CommonUtils/ClassFactory.cpp SourceCode/CommonUtils/ClassFactory.h SourceCode/EngineFramework/GraphEngine/Function/Material.h SourceCode/EngineFramework/GraphEngine/Function/Shader.h SourceCode/EngineFramework/GraphEngine/Function/Texture.h SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp SourceCode/EngineFramework/GraphEngine/GraphEngine.h SourceCode/Components/Mesh/MeshFilter.cpp SourceCode/Components/Mesh/MeshFilter.h SourceCode/EngineFramework/GraphEngine/Function/Material.cpp SourceCode/scene.cpp SourceCode/Components/Common/Transform.h SourceCode/Components/UI/BaseUI.h SourceCode/Components/UI/UILayout.cpp SourceCode/Components/UI/UILayout.h SourceCode/Components/UI/ExtendUI/UIImage.h SourceCode/Components/UI/ExtendUI/UIText.h SourceCode/Components/UI/ExtendUI/q.cpp SourceCode/Components/UI/ExtendUI/q.h SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.h SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.h SourceCode/Components/UI/ExtendUI/UIButton.cpp SourceCode/Components/UI/ExtendUI/UIButton.h SourceCode/EngineFramework/EventCenter.cpp SourceCode/EngineFramework/EventCenter.h SourceCode/CommonUtils/TypeCaster.cpp SourceCode/CommonUtils/TypeCaster.h SourceCode/EngineFramework/PsychoEngine/Transform.cpp SourceCode/EngineFramework/PsychoEngine/Transform.h SourceCode/EngineFramework/GraphEngine/Function/Text.cpp SourceCode/EngineFramework/GraphEngine/Function/Text.h  SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp SourceCode/EngineFramework/GraphEngine/Controller/MeshController.h SourceCode/EngineFramework/GraphEngine/Function/Mesh.h SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.h SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.h SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.h SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.h SourceCode/CommonUtils/CommonMath.cpp SourceCode/CommonUtils/CommonMath.h SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.h ExtendCode/SceneObject/CoffeeCup.cpp ExtendCode/SceneObject/CoffeeCup.h ExtendCode/SceneObject/SceneObject.cpp ExtendCode/SceneObject/SceneObject.h SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp SourceCode/EngineFramework/GraphEngine/Controller/LightController.h SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp SourceCode/EngineFramework/GraphEngine/Controller/CameraController.h SourceCode/EngineFramework/GraphEngine/Function/Camera.h SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp SourceCode/EngineFramework/PsychoEngine/PsychoEngine.h SourceCode/EngineFramework/PsychoEngine/InputController.cpp SourceCode/EngineFramework/PsychoEngine/InputController.h SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp SourceCode/EngineFramework/PsychoEngine/ShortcutController.h SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp SourceCode/EngineFramework/ExtendEngine/BaseEngine.h SourceCode/EngineFramework/ExtendEngine/Renderer.cpp SourceCode/EngineFramework/ExtendEngine/Renderer.h SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp SourceCode/EngineFramework/ObjectEngine/ObjectEngine.h)
+
+if (APPLE)
+    target_link_libraries(GameEngine "-framework OpenGL")
+    target_link_libraries(GameEngine "-framework GLUT")
+endif()
