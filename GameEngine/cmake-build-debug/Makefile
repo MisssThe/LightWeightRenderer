@@ -177,30 +177,6 @@ ExtendCode/SceneObject/SceneObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/SceneObject.cpp.s
 .PHONY : ExtendCode/SceneObject/SceneObject.cpp.s
 
-SourceCode/CommonUtils/ClassFactory.o: SourceCode/CommonUtils/ClassFactory.cpp.o
-.PHONY : SourceCode/CommonUtils/ClassFactory.o
-
-# target to build an object file
-SourceCode/CommonUtils/ClassFactory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.o
-.PHONY : SourceCode/CommonUtils/ClassFactory.cpp.o
-
-SourceCode/CommonUtils/ClassFactory.i: SourceCode/CommonUtils/ClassFactory.cpp.i
-.PHONY : SourceCode/CommonUtils/ClassFactory.i
-
-# target to preprocess a source file
-SourceCode/CommonUtils/ClassFactory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.i
-.PHONY : SourceCode/CommonUtils/ClassFactory.cpp.i
-
-SourceCode/CommonUtils/ClassFactory.s: SourceCode/CommonUtils/ClassFactory.cpp.s
-.PHONY : SourceCode/CommonUtils/ClassFactory.s
-
-# target to generate assembly for a file
-SourceCode/CommonUtils/ClassFactory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.s
-.PHONY : SourceCode/CommonUtils/ClassFactory.cpp.s
-
 SourceCode/CommonUtils/CommonMath.o: SourceCode/CommonUtils/CommonMath.cpp.o
 .PHONY : SourceCode/CommonUtils/CommonMath.o
 
@@ -249,30 +225,6 @@ SourceCode/CommonUtils/CommonUtils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.s
 .PHONY : SourceCode/CommonUtils/CommonUtils.cpp.s
 
-SourceCode/CommonUtils/GameEngine2D.o: SourceCode/CommonUtils/GameEngine2D.cpp.o
-.PHONY : SourceCode/CommonUtils/GameEngine2D.o
-
-# target to build an object file
-SourceCode/CommonUtils/GameEngine2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.o
-.PHONY : SourceCode/CommonUtils/GameEngine2D.cpp.o
-
-SourceCode/CommonUtils/GameEngine2D.i: SourceCode/CommonUtils/GameEngine2D.cpp.i
-.PHONY : SourceCode/CommonUtils/GameEngine2D.i
-
-# target to preprocess a source file
-SourceCode/CommonUtils/GameEngine2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.i
-.PHONY : SourceCode/CommonUtils/GameEngine2D.cpp.i
-
-SourceCode/CommonUtils/GameEngine2D.s: SourceCode/CommonUtils/GameEngine2D.cpp.s
-.PHONY : SourceCode/CommonUtils/GameEngine2D.s
-
-# target to generate assembly for a file
-SourceCode/CommonUtils/GameEngine2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.s
-.PHONY : SourceCode/CommonUtils/GameEngine2D.cpp.s
-
 SourceCode/CommonUtils/GameLog.o: SourceCode/CommonUtils/GameLog.cpp.o
 .PHONY : SourceCode/CommonUtils/GameLog.o
 
@@ -297,53 +249,53 @@ SourceCode/CommonUtils/GameLog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.s
 .PHONY : SourceCode/CommonUtils/GameLog.cpp.s
 
-SourceCode/CommonUtils/Time.o: SourceCode/CommonUtils/Time.cpp.o
-.PHONY : SourceCode/CommonUtils/Time.o
+SourceCode/CommonUtils/Utils/Time.o: SourceCode/CommonUtils/Utils/Time.cpp.o
+.PHONY : SourceCode/CommonUtils/Utils/Time.o
 
 # target to build an object file
-SourceCode/CommonUtils/Time.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.o
-.PHONY : SourceCode/CommonUtils/Time.cpp.o
+SourceCode/CommonUtils/Utils/Time.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.o
+.PHONY : SourceCode/CommonUtils/Utils/Time.cpp.o
 
-SourceCode/CommonUtils/Time.i: SourceCode/CommonUtils/Time.cpp.i
-.PHONY : SourceCode/CommonUtils/Time.i
+SourceCode/CommonUtils/Utils/Time.i: SourceCode/CommonUtils/Utils/Time.cpp.i
+.PHONY : SourceCode/CommonUtils/Utils/Time.i
 
 # target to preprocess a source file
-SourceCode/CommonUtils/Time.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.i
-.PHONY : SourceCode/CommonUtils/Time.cpp.i
+SourceCode/CommonUtils/Utils/Time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.i
+.PHONY : SourceCode/CommonUtils/Utils/Time.cpp.i
 
-SourceCode/CommonUtils/Time.s: SourceCode/CommonUtils/Time.cpp.s
-.PHONY : SourceCode/CommonUtils/Time.s
+SourceCode/CommonUtils/Utils/Time.s: SourceCode/CommonUtils/Utils/Time.cpp.s
+.PHONY : SourceCode/CommonUtils/Utils/Time.s
 
 # target to generate assembly for a file
-SourceCode/CommonUtils/Time.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.s
-.PHONY : SourceCode/CommonUtils/Time.cpp.s
+SourceCode/CommonUtils/Utils/Time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.s
+.PHONY : SourceCode/CommonUtils/Utils/Time.cpp.s
 
-SourceCode/CommonUtils/TypeCaster.o: SourceCode/CommonUtils/TypeCaster.cpp.o
-.PHONY : SourceCode/CommonUtils/TypeCaster.o
+SourceCode/CommonUtils/Utils/TypeCaster.o: SourceCode/CommonUtils/Utils/TypeCaster.cpp.o
+.PHONY : SourceCode/CommonUtils/Utils/TypeCaster.o
 
 # target to build an object file
-SourceCode/CommonUtils/TypeCaster.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.o
-.PHONY : SourceCode/CommonUtils/TypeCaster.cpp.o
+SourceCode/CommonUtils/Utils/TypeCaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.o
+.PHONY : SourceCode/CommonUtils/Utils/TypeCaster.cpp.o
 
-SourceCode/CommonUtils/TypeCaster.i: SourceCode/CommonUtils/TypeCaster.cpp.i
-.PHONY : SourceCode/CommonUtils/TypeCaster.i
+SourceCode/CommonUtils/Utils/TypeCaster.i: SourceCode/CommonUtils/Utils/TypeCaster.cpp.i
+.PHONY : SourceCode/CommonUtils/Utils/TypeCaster.i
 
 # target to preprocess a source file
-SourceCode/CommonUtils/TypeCaster.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.i
-.PHONY : SourceCode/CommonUtils/TypeCaster.cpp.i
+SourceCode/CommonUtils/Utils/TypeCaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.i
+.PHONY : SourceCode/CommonUtils/Utils/TypeCaster.cpp.i
 
-SourceCode/CommonUtils/TypeCaster.s: SourceCode/CommonUtils/TypeCaster.cpp.s
-.PHONY : SourceCode/CommonUtils/TypeCaster.s
+SourceCode/CommonUtils/Utils/TypeCaster.s: SourceCode/CommonUtils/Utils/TypeCaster.cpp.s
+.PHONY : SourceCode/CommonUtils/Utils/TypeCaster.s
 
 # target to generate assembly for a file
-SourceCode/CommonUtils/TypeCaster.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.s
-.PHONY : SourceCode/CommonUtils/TypeCaster.cpp.s
+SourceCode/CommonUtils/Utils/TypeCaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.s
+.PHONY : SourceCode/CommonUtils/Utils/TypeCaster.cpp.s
 
 SourceCode/Components/Mesh/MeshFilter.o: SourceCode/Components/Mesh/MeshFilter.cpp.o
 .PHONY : SourceCode/Components/Mesh/MeshFilter.o
@@ -1104,27 +1056,21 @@ help:
 	@echo "... ExtendCode/SceneObject/SceneObject.o"
 	@echo "... ExtendCode/SceneObject/SceneObject.i"
 	@echo "... ExtendCode/SceneObject/SceneObject.s"
-	@echo "... SourceCode/CommonUtils/ClassFactory.o"
-	@echo "... SourceCode/CommonUtils/ClassFactory.i"
-	@echo "... SourceCode/CommonUtils/ClassFactory.s"
 	@echo "... SourceCode/CommonUtils/CommonMath.o"
 	@echo "... SourceCode/CommonUtils/CommonMath.i"
 	@echo "... SourceCode/CommonUtils/CommonMath.s"
 	@echo "... SourceCode/CommonUtils/CommonUtils.o"
 	@echo "... SourceCode/CommonUtils/CommonUtils.i"
 	@echo "... SourceCode/CommonUtils/CommonUtils.s"
-	@echo "... SourceCode/CommonUtils/GameEngine2D.o"
-	@echo "... SourceCode/CommonUtils/GameEngine2D.i"
-	@echo "... SourceCode/CommonUtils/GameEngine2D.s"
 	@echo "... SourceCode/CommonUtils/GameLog.o"
 	@echo "... SourceCode/CommonUtils/GameLog.i"
 	@echo "... SourceCode/CommonUtils/GameLog.s"
-	@echo "... SourceCode/CommonUtils/Time.o"
-	@echo "... SourceCode/CommonUtils/Time.i"
-	@echo "... SourceCode/CommonUtils/Time.s"
-	@echo "... SourceCode/CommonUtils/TypeCaster.o"
-	@echo "... SourceCode/CommonUtils/TypeCaster.i"
-	@echo "... SourceCode/CommonUtils/TypeCaster.s"
+	@echo "... SourceCode/CommonUtils/Utils/Time.o"
+	@echo "... SourceCode/CommonUtils/Utils/Time.i"
+	@echo "... SourceCode/CommonUtils/Utils/Time.s"
+	@echo "... SourceCode/CommonUtils/Utils/TypeCaster.o"
+	@echo "... SourceCode/CommonUtils/Utils/TypeCaster.i"
+	@echo "... SourceCode/CommonUtils/Utils/TypeCaster.s"
 	@echo "... SourceCode/Components/Mesh/MeshFilter.o"
 	@echo "... SourceCode/Components/Mesh/MeshFilter.i"
 	@echo "... SourceCode/Components/Mesh/MeshFilter.s"

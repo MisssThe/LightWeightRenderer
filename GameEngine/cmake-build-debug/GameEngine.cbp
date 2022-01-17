@@ -110,12 +110,6 @@
 		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/ExtendCode/SceneObject/SceneObject.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/ClassFactory.cpp">
-			<Option target="GameEngine"/>
-		</Unit>
-		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/ClassFactory.h">
-			<Option target="GameEngine"/>
-		</Unit>
 		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/CommonMath.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
@@ -128,28 +122,22 @@
 		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/CommonUtils.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameEngine2D.cpp">
-			<Option target="GameEngine"/>
-		</Unit>
-		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameEngine2D.h">
-			<Option target="GameEngine"/>
-		</Unit>
 		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameLog.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
 		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameLog.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Time.cpp">
+		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/Time.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Time.h">
+		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/Time.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/TypeCaster.cpp">
+		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/TypeCaster.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/TypeCaster.h">
+		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/TypeCaster.h">
 			<Option target="GameEngine"/>
 		</Unit>
 		<Unit filename="/Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/Components/Common/Transform.h">

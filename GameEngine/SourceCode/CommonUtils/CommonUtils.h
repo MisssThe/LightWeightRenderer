@@ -11,7 +11,7 @@
 #include <queue>
 #include <json.h>
 #include <iostream>
-#include "Time.h"
+#include "Utils/Time.h"
 #include "GameLog.h"
 #include <fstream>
 #include <thread>
@@ -22,6 +22,14 @@ private:
     template<class T> static void unpackArgs(std::vector<T>* vec,T arg)
     {
         vec->push_back(arg);
+    }
+    static void ChangeThreadState(int threadId,bool flag)
+    {
+        //不传入id时默认改变所有线程状态，更改后没有变化的线程会保留
+        TraverMap<int,Thread*>(thread_map,[&threadId, &flag](int id,Thread*thread){
+            if (threadId < 0 || threadId == id)
+                *thread_map.at(id)->stopFlag = flag;
+        });
     }
 public:
 //    template<class ...Args> static void SafeCall(std::function<void(Args)...> func,Args ...args)
@@ -57,6 +65,8 @@ public:
 
     template<class T> static void TraverQueue(std::queue<T>* queue,std::function<void(T)> func)
     {
+        if (!queue)
+            return;
         int length = queue->size();
         if (length > 0)
         {
@@ -192,10 +202,20 @@ public:
             thread = new std::thread(
                     [](std::function<void()> func,int threadId)
                     {
+                        Thread*thread  = CommonUtils::thread_map.at(threadId);
+                        bool* endFlag  = thread->endFlag;
+                        bool* stopFlag = thread->stopFlag;
                         while (true)
                         {
                             SafeCall(func);
-                            if (CommonUtils::thread_map.at(threadId)->endFlag)
+                            while (stopFlag)
+                            {
+                                if (endFlag)
+                                {
+                                    return;
+                                }
+                            }
+                            if (*endFlag)
                             {
                                 return;
                             }
@@ -216,12 +236,21 @@ public:
         thread_map.insert(std::pair<int,Thread*>(threadId,value));
         return threadId;
     }
+    static void PauseThread(int threadId = -1)
+    {
+        ChangeThreadState(threadId, true);
+    }
+    static void ResumeThread(int threadId = -1)
+    {
+        ChangeThreadState(threadId, false);
+    }
     static void StopThread(int threadId)
     {
-        thread_map.at(threadId)->endFlag = true;
+        *thread_map.at(threadId)->endFlag = true;
         thread_map.at(threadId)->thread->join();
         thread_map.erase(threadId);
     }
+
     static std::string* ReadFile(std::string path,unsigned int ioState = std::ifstream::failbit | std::ifstream::badbit)
     {
         std::string* code;
@@ -253,15 +282,19 @@ private:
     public:
         Thread(std::thread* thread,bool flag = false)
         {
-            this->thread = thread;
-            this->endFlag = flag;
+            this->thread    = thread;
+            this->endFlag   = new bool;
+            this->stopFlag  = new bool;
+            *this->endFlag  = flag;
+            *this->stopFlag = flag;
         }
         ~Thread()
         {
             delete this->thread;
         }
         std::thread* thread;
-        bool         endFlag;
+        bool*        endFlag;
+        bool*        stopFlag;
     };
     static std::unordered_map<int,Thread*> thread_map;
     static int base_thread_id;

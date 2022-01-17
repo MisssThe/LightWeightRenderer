@@ -17,7 +17,7 @@ class PsychoEngine
 public:
     static void Init()
     {
-
+        InputController::Init();
     }
     static void Run()
     {
@@ -25,10 +25,11 @@ public:
             CommonUtils::TraverQueue<GLFWwindow*>(GraphEngine::staticWindowQueue,[](GLFWwindow*window){
                 if (window == nullptr)
                 {
-                    GraphEngine::UpdateWindowQueue();
+//                    GraphEngine::UpdateWindowQueue();
+                    std::cout << "size:" << GraphEngine::staticWindowQueue.size() << std::endl;
                     return;
                 }
-                InputController::UpdateInput(window);
+                InputController::Update(window);
                 ShortcutController::Update();
             });
         }, true);

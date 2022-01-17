@@ -92,22 +92,9 @@ CMakeFiles/GameEngine.dir/SourceCode/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GameEngine.dir/SourceCode/glad.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/glad.c -o CMakeFiles/GameEngine.dir/SourceCode/glad.c.s
 
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.o: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.o: ../SourceCode/CommonUtils/GameEngine2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameEngine2D.cpp
-
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameEngine2D.cpp > CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.i
-
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameEngine2D.cpp -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.s
-
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.o: ../SourceCode/EngineFramework/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/Engine.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.i: cmake_force
@@ -120,7 +107,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.s: cmake_force
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.o: ../SourceCode/EngineFramework/EngineSetting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/EngineSetting.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.i: cmake_force
@@ -133,7 +120,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.s: cmake_
 
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.o: ../SourceCode/CommonUtils/CommonUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/CommonUtils.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.i: cmake_force
@@ -144,22 +131,22 @@ CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/CommonUtils.cpp -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.s
 
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.o: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.o: ../SourceCode/CommonUtils/Time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Time.cpp
+CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.o: ../SourceCode/CommonUtils/Utils/Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/Time.cpp
 
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Time.cpp > CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.i
+CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/Time.cpp > CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.i
 
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Time.cpp -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.s
+CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/Time.cpp -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.s
 
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.o: ../SourceCode/CommonUtils/GameLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameLog.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.i: cmake_force
@@ -170,22 +157,9 @@ CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/GameLog.cpp -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.s
 
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.o: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.o: ../SourceCode/CommonUtils/ClassFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/ClassFactory.cpp
-
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/ClassFactory.cpp > CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.i
-
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/ClassFactory.cpp -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.s
-
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp.o: ../SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp.i: cmake_force
@@ -198,7 +172,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.o: ../SourceCode/Components/Mesh/MeshFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/Components/Mesh/MeshFilter.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.i: cmake_force
@@ -211,7 +185,7 @@ CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.s: cmake_for
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Function/Material.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp.i: cmake_force
@@ -224,7 +198,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Materi
 
 CMakeFiles/GameEngine.dir/SourceCode/scene.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/scene.cpp.o: ../SourceCode/scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/scene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/scene.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/scene.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/scene.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/scene.cpp.i: cmake_force
@@ -237,7 +211,7 @@ CMakeFiles/GameEngine.dir/SourceCode/scene.cpp.s: cmake_force
 
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/UILayout.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/UILayout.cpp.o: ../SourceCode/Components/UI/UILayout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/Components/UI/UILayout.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/Components/UI/UILayout.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/Components/UI/UILayout.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/Components/UI/UILayout.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/UILayout.cpp.i: cmake_force
@@ -250,7 +224,7 @@ CMakeFiles/GameEngine.dir/SourceCode/Components/UI/UILayout.cpp.s: cmake_force
 
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/q.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/q.cpp.o: ../SourceCode/Components/UI/ExtendUI/q.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/q.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/q.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/q.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/Components/UI/ExtendUI/q.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/q.cpp.i: cmake_force
@@ -263,7 +237,7 @@ CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/q.cpp.s: cmake_force
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/BasePipeline.cpp.i: cmake_force
@@ -276,7 +250,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/Base
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp.i: cmake_force
@@ -289,7 +263,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/Shad
 
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.o: ../SourceCode/Components/UI/ExtendUI/UIButton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/Components/UI/ExtendUI/UIButton.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.i: cmake_force
@@ -302,7 +276,7 @@ CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.s: cmak
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.o: ../SourceCode/EngineFramework/EventCenter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/EventCenter.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.i: cmake_force
@@ -313,22 +287,22 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/EventCenter.cpp -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.s
 
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.o: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.o: ../SourceCode/CommonUtils/TypeCaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/TypeCaster.cpp
+CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.o: ../SourceCode/CommonUtils/Utils/TypeCaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/TypeCaster.cpp
 
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/TypeCaster.cpp > CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.i
+CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/TypeCaster.cpp > CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.i
 
-CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/TypeCaster.cpp -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.s
+CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/Utils/TypeCaster.cpp -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.s
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.o: ../SourceCode/EngineFramework/PsychoEngine/Transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/PsychoEngine/Transform.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.i: cmake_force
@@ -341,7 +315,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Function/Text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp.i: cmake_force
@@ -354,7 +328,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.c
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp.i: cmake_force
@@ -367,7 +341,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Textur
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MeshController.cpp.i: cmake_force
@@ -380,7 +354,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/Mesh
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp.o: ../SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXLoader.cpp.i: cmake_force
@@ -393,7 +367,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/FBXL
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp.o: ../SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/MeshLoader.cpp.i: cmake_force
@@ -406,7 +380,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/Mesh
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp.o: ../SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/BaseLoader.cpp.i: cmake_force
@@ -419,7 +393,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/Base
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp.o: ../SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/AssimpLoader.cpp.i: cmake_force
@@ -432,7 +406,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/MeshLoader/Assi
 
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonMath.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonMath.cpp.o: ../SourceCode/CommonUtils/CommonMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonMath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonMath.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonMath.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/CommonUtils/CommonMath.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonMath.cpp.i: cmake_force
@@ -445,7 +419,7 @@ CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonMath.cpp.s: cmake_force
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/MaterialController.cpp.i: cmake_force
@@ -458,7 +432,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/Mate
 
 CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/CoffeeCup.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/CoffeeCup.cpp.o: ../ExtendCode/SceneObject/CoffeeCup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/CoffeeCup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/CoffeeCup.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/CoffeeCup.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/ExtendCode/SceneObject/CoffeeCup.cpp
 
 CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/CoffeeCup.cpp.i: cmake_force
@@ -471,7 +445,7 @@ CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/CoffeeCup.cpp.s: cmake_force
 
 CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/SceneObject.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/SceneObject.cpp.o: ../ExtendCode/SceneObject/SceneObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/SceneObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/SceneObject.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/SceneObject.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/ExtendCode/SceneObject/SceneObject.cpp
 
 CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/SceneObject.cpp.i: cmake_force
@@ -484,7 +458,7 @@ CMakeFiles/GameEngine.dir/ExtendCode/SceneObject/SceneObject.cpp.s: cmake_force
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/LightController.cpp.i: cmake_force
@@ -497,7 +471,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/Ligh
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp.o: ../SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/CameraController.cpp.i: cmake_force
@@ -510,7 +484,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/Came
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp.o: ../SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/PsychoEngine.cpp.i: cmake_force
@@ -523,7 +497,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/PsychoEngine.c
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/InputController.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/InputController.cpp.o: ../SourceCode/EngineFramework/PsychoEngine/InputController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/InputController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/InputController.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/InputController.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/PsychoEngine/InputController.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/InputController.cpp.i: cmake_force
@@ -536,7 +510,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/InputControlle
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp.o: ../SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/ShortcutController.cpp.i: cmake_force
@@ -549,7 +523,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/ShortcutContro
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp.o: ../SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp.i: cmake_force
@@ -562,7 +536,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/BaseEngine.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/Renderer.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/Renderer.cpp.o: ../SourceCode/EngineFramework/ExtendEngine/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/Renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/Renderer.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/Renderer.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/ExtendEngine/Renderer.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/Renderer.cpp.i: cmake_force
@@ -575,7 +549,7 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ExtendEngine/Renderer.cpp.s
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp.o: ../SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp.o -c /Users/tandijie/LightWeightRenderer/GameEngine/SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp
 
 CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ObjectEngine/ObjectEngine.cpp.i: cmake_force
@@ -590,13 +564,11 @@ CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/ObjectEngine/ObjectEngine.c
 GameEngine_OBJECTS = \
 "CMakeFiles/GameEngine.dir/SourceCode/main.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/glad.c.o" \
-"CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.o" \
-"CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.o" \
+"CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.o" \
-"CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp.o" \
@@ -607,7 +579,7 @@ GameEngine_OBJECTS = \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.o" \
-"CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.o" \
+"CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp.o" \
 "CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp.o" \
@@ -634,13 +606,11 @@ GameEngine_EXTERNAL_OBJECTS =
 
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/main.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/glad.c.o
-GameEngine: CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameEngine2D.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/Engine.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EngineSetting.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/CommonUtils.cpp.o
-GameEngine: CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Time.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/Time.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/GameLog.cpp.o
-GameEngine: CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/ClassFactory.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/GraphEngine.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/Components/Mesh/MeshFilter.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Material.cpp.o
@@ -651,7 +621,7 @@ GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Con
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Controller/ShaderController.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/Components/UI/ExtendUI/UIButton.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/EventCenter.cpp.o
-GameEngine: CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/TypeCaster.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/SourceCode/CommonUtils/Utils/TypeCaster.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/PsychoEngine/Transform.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Text.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/SourceCode/EngineFramework/GraphEngine/Function/Texture.cpp.o
@@ -678,7 +648,7 @@ GameEngine: ../IncludeFile/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib
 GameEngine: ../IncludeFile/jsoncpp/1.9.4_1/lib/libjsoncpp.24.dylib
 GameEngine: ../IncludeFile/assimp/5.0.1/lib/libassimp.dylib
 GameEngine: CMakeFiles/GameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable GameEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tandijie/LightWeightRenderer/GameEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable GameEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

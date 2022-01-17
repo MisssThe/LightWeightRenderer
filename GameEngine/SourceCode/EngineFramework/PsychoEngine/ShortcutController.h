@@ -11,6 +11,10 @@
 class ShortcutController
 {
 public:
+    static void Init()
+    {
+
+    }
     static void Update()
     {
         if (InputController::GetKey(256))

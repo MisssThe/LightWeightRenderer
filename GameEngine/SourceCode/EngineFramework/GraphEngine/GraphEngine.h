@@ -26,10 +26,14 @@ private:
         EngineWindow(GLFWwindow*window,int windowId):window(window){this->windowId = windowId;}
         ~EngineWindow()
         {
+            //为保证线程安全在销毁window时挂起所有线程
+            CommonUtils::PauseThread();
             glfwMakeContextCurrent(this->window);
             CommonUtils::SafeCall(this->func);
             glfwDestroyWindow(this->window);
             this->window = nullptr;
+            CommonUtils::ResumeThread();
+            //恢复所有线程
         }
         void setDestroyCallBack(std::function<void()> func)
         {

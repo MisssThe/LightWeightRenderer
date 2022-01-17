@@ -11,6 +11,7 @@
 #include "BaseEngine.h"
 #include "../../Components/UI/ExtendUI/UIImage.h"
 #include "../GraphEngine/GraphEngine.h"
+#include "../PsychoEngine/InputController.h"
 
 //物体面板展示场景
 class AttriWindow
@@ -35,10 +36,7 @@ public:
         this->index = GraphEngine::AddWindow(0);
         UIImage uiImage(this->index);
     }
-    void AddObject(GameObject obj)
-    {
 
-    }
 public:
     int index;
 };
@@ -47,8 +45,13 @@ class Renderer : public BaseEngine
 {
 protected:
     void init() override {
-        ShowWindow sw;
-        AttriWindow aw;
+        //创建基础窗口
+        this->index1 = GraphEngine::AddWindow(0);
+        this->index2 = GraphEngine::AddWindow(1);
+        //设置按键回调
+        InputController::AddMouseCallBackLeftPress([](int pos_x,int pos_y){
+            std::cout << "0";
+        });
     }
 
     void run() override {
@@ -62,6 +65,8 @@ protected:
     void stop() override {
 
     }
+private:
+    int index1,index2;
 };
 
 

@@ -4,4 +4,6 @@
 
 #include "InputController.h"
 
-std::unordered_map<int,int> InputController::inputMap;
+std::unordered_map<int,int> InputController::keyboardInputMap;
+std::unordered_map<int,int> InputController::mouseInputMap;
+Mouse* Mouse::mouse;
